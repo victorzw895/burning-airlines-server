@@ -1,5 +1,7 @@
 {
   "name": "burning_airlines_server",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
 }
