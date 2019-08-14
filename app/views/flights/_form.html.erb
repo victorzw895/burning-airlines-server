@@ -27,8 +27,8 @@
   </div>
 
   <div class="field">
-    <%= form.label :planeNo %>
-    <%= form.text_area :planeNo %>
+    <%= form.label :airplane_id %>
+    <%= form.select :airplane_id, Airplane.pluck(:planeNo, :id) %>
   </div>
 
   <div class="actions">

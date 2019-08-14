@@ -16,13 +16,20 @@ u3 = User.create :name => 'Paulina', :email => 'paulina@ga.co'
 Airplane.destroy_all
 puts 'Creating Airplane'
 a1 = Airplane.create :planeNo => 757
+a2 = Airplane.create :planeNo => 800
+a3 = Airplane.create :planeNo => 444
 
 Flight.destroy_all
 puts 'Creating Flights'
 f1 = Flight.create :origin => 'SYD', :destination => 'SNG'
 f2 = Flight.create :origin => 'MAL', :destination => 'SNG'
+f3 = Flight.create :origin => 'SNG', :destination => 'PER'
 
 puts "associations"
 u1.flights << f1
 
-a1.flights << f1 << f2
+a1.flights << f3
+
+a2.flights << f2
+
+a3.flights << f1
