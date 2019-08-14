@@ -1,8 +1,18 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Planeno:</strong>
+  <strong>PlaneNo:</strong>
   <%= @airplane.planeNo %>
+</p>
+
+<p>
+  <strong>Row:</strong>
+  <%= @airplane.row %>
+</p>
+
+<p>
+  <strong>Column:</strong>
+  <%= @airplane.columns %>
 </p>
 
 <%= link_to 'Edit', edit_airplane_path(@airplane) %> |
