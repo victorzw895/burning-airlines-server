@@ -15,9 +15,9 @@ u3 = User.create :name => 'Paulina', :email => 'paulina@ga.co'
 
 Airplane.destroy_all
 puts 'Creating Airplane'
-a1 = Airplane.create :planeNo => 757
-a2 = Airplane.create :planeNo => 800
-a3 = Airplane.create :planeNo => 444
+a1 = Airplane.create :planeNo => 757, :columns => 'A', row: 20
+a2 = Airplane.create :planeNo => 800, :columns => 'A', row: 28
+a3 = Airplane.create :planeNo => 444, :columns => 'A', row: 50
 
 Flight.destroy_all
 puts 'Creating Flights'
