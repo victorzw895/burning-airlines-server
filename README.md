@@ -1,30 +1,22 @@
-# README
+# Burning Airlines Server
 
-## Things I learned
+## Description
 
-* If database will have columns that use date and time date. Use them seperately instead of as datetime.
-* Remake database as many times as needed before moving on to front end
-* json.builder file will need to include associations if want to access data from columns in the associated table from a get request
+First development group project from General Assembly Bootcamp.
+Goals:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- To get a working front-end and back-end for a fake airline company.
+- To have 4 primary views including creating new flights, listing new airplanes, booking new flights and selecting seats.
+- Get a working database using MVC on Ruby on Rails
+- Get working front-end using React.js
 
-Things you may want to cover:
+## Things I learned about Back-end
 
-* Ruby version
+- If database will have columns that use date and time date. Use them seperately instead of as datetime.
+- Remake database as many times as needed before moving on to front end
+- json.builder file will need to include associations if want to access data from columns in the associated table from a get request
 
-* System dependencies
+## Technologies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Ruby on Rails
+- Gems
